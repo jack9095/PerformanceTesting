@@ -1,0 +1,172 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:design:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2a4d2445bdf8c106b7a53cfeaae6b5e8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/391efcd139a1694a0adbec31862aa30c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/92002e9e81abb0243adfd67cf187cd24/AndroidManifest.xml:17:1-22:12
+MERGED from [:tinydancer] /Users/gaodun/Downloads/PerformanceTesting/tinydancer/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6c186319f2cd4f0bfafbd65b075c5f23/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1571064194c73a046d5b985804d541b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/bd77e004c8fb49102d52de71e819673a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/61a4b596d019ddf3b049c29ec2938d3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/380048fa5dcd9844645ef03ebfc1b25b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/ff8b2c2f4e8973e10906087c001117a7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6dd35d83674032db55f50bd9bbcfa499/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cb94e675bd65a8bdfa7cbc0beff6a776/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a7c87f1114835e80027e6c70d17d2d76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f4a7280aa35813a4cbed77d072766fe9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/30c947240f6147f4c9a3db06cf5f962e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/65de0c6cae0d500eceedfbe99cee109e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/82b35b14367922646285054a3eee9c38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/db94008245b24e192431425eea481e3f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3fe36aaa7f2f79133e9f7ad6554acf38/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2420dfcb1bb972a35d93a3d74c8149e2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9ad6603df05e69ea7420606aed0571e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b704ae4f574ea6337ed4c46997c73616/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/47fa3c53f703d920fe52c4dfa80c6803/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/550dc3c9629aaeda95ebac34e0685281/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/39036251a6a416287f2577f3e979944a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ef9972d0ea62fd81d0a5f92a337945da/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a693bd1b14e34bd1644571ba38c009bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ff3393f6dd1444e3692170c653d52d9c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/fe79a11b1900ebb52653240134a7378d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e4639355509fd3e85348ba0c7826f3cb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/78410655516e04eaa484ee3d7dcc7ff4/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:design:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2a4d2445bdf8c106b7a53cfeaae6b5e8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2a4d2445bdf8c106b7a53cfeaae6b5e8/AndroidManifest.xml:22:5-20
+MERGED from [:tinydancer] /Users/gaodun/Downloads/PerformanceTesting/tinydancer/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-14:19
+MERGED from [:tinydancer] /Users/gaodun/Downloads/PerformanceTesting/tinydancer/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-14:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3fe36aaa7f2f79133e9f7ad6554acf38/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3fe36aaa7f2f79133e9f7ad6554acf38/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2420dfcb1bb972a35d93a3d74c8149e2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2420dfcb1bb972a35d93a3d74c8149e2/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3fe36aaa7f2f79133e9f7ad6554acf38/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:10:9-40
+	android:name
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:6:9-39
+activity#com.codemonkeylabs.fpslibrary.sample.UI.MainActivity
+ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:11:9-19:20
+	android:label
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:13:13-45
+	android:name
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:12:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2a4d2445bdf8c106b7a53cfeaae6b5e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/2a4d2445bdf8c106b7a53cfeaae6b5e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/391efcd139a1694a0adbec31862aa30c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/391efcd139a1694a0adbec31862aa30c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/92002e9e81abb0243adfd67cf187cd24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/92002e9e81abb0243adfd67cf187cd24/AndroidManifest.xml:20:5-44
+MERGED from [:tinydancer] /Users/gaodun/Downloads/PerformanceTesting/tinydancer/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:tinydancer] /Users/gaodun/Downloads/PerformanceTesting/tinydancer/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6c186319f2cd4f0bfafbd65b075c5f23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6c186319f2cd4f0bfafbd65b075c5f23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1571064194c73a046d5b985804d541b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1571064194c73a046d5b985804d541b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/bd77e004c8fb49102d52de71e819673a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/bd77e004c8fb49102d52de71e819673a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/61a4b596d019ddf3b049c29ec2938d3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/61a4b596d019ddf3b049c29ec2938d3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/380048fa5dcd9844645ef03ebfc1b25b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/380048fa5dcd9844645ef03ebfc1b25b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/ff8b2c2f4e8973e10906087c001117a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/ff8b2c2f4e8973e10906087c001117a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6dd35d83674032db55f50bd9bbcfa499/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6dd35d83674032db55f50bd9bbcfa499/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cb94e675bd65a8bdfa7cbc0beff6a776/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cb94e675bd65a8bdfa7cbc0beff6a776/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a7c87f1114835e80027e6c70d17d2d76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a7c87f1114835e80027e6c70d17d2d76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f4a7280aa35813a4cbed77d072766fe9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f4a7280aa35813a4cbed77d072766fe9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/30c947240f6147f4c9a3db06cf5f962e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/30c947240f6147f4c9a3db06cf5f962e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/65de0c6cae0d500eceedfbe99cee109e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/65de0c6cae0d500eceedfbe99cee109e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/82b35b14367922646285054a3eee9c38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/82b35b14367922646285054a3eee9c38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/db94008245b24e192431425eea481e3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/db94008245b24e192431425eea481e3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3fe36aaa7f2f79133e9f7ad6554acf38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3fe36aaa7f2f79133e9f7ad6554acf38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2420dfcb1bb972a35d93a3d74c8149e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2420dfcb1bb972a35d93a3d74c8149e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9ad6603df05e69ea7420606aed0571e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9ad6603df05e69ea7420606aed0571e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b704ae4f574ea6337ed4c46997c73616/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b704ae4f574ea6337ed4c46997c73616/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/47fa3c53f703d920fe52c4dfa80c6803/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/47fa3c53f703d920fe52c4dfa80c6803/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/550dc3c9629aaeda95ebac34e0685281/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/550dc3c9629aaeda95ebac34e0685281/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/39036251a6a416287f2577f3e979944a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/39036251a6a416287f2577f3e979944a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ef9972d0ea62fd81d0a5f92a337945da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ef9972d0ea62fd81d0a5f92a337945da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a693bd1b14e34bd1644571ba38c009bc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a693bd1b14e34bd1644571ba38c009bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ff3393f6dd1444e3692170c653d52d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ff3393f6dd1444e3692170c653d52d9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/fe79a11b1900ebb52653240134a7378d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/fe79a11b1900ebb52653240134a7378d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e4639355509fd3e85348ba0c7826f3cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e4639355509fd3e85348ba0c7826f3cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/78410655516e04eaa484ee3d7dcc7ff4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/gaodun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/78410655516e04eaa484ee3d7dcc7ff4/AndroidManifest.xml:20:5-44
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+		ADDED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaodun/Downloads/PerformanceTesting/example/src/main/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:tinydancer] /Users/gaodun/Downloads/PerformanceTesting/tinydancer/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from [:tinydancer] /Users/gaodun/Downloads/PerformanceTesting/tinydancer/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:22-75

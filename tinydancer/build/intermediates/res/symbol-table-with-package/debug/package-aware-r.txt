@@ -1,0 +1,7 @@
+com.codemonkeylabs.fpslibrary
+dimen metric_band_width
+drawable fpsmeterring_bad
+drawable fpsmeterring_good
+drawable fpsmeterring_medium
+layout meter_view
+string app_name

@@ -1,0 +1,53 @@
+apply plugin: "com.android.application"
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.codemonkeylabs.fpslibrary.sample"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("./debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    lintOptions {
+        disable "InvalidPackage"
+    }
+}
+
+dependencies {
+    debugCompile project(":tinydancer")
+    releaseCompile project(":tinydancer-noop")
+
+    compile deps.appcompatv7
+    compile deps.supportDesign
+    compile deps.recyclerviewv7
+//    compile deps.butterknife
+    compile deps.dagger
+
+    annotationProcessor deps.daggerCompiler
+
+    provided deps.javaxAnnotation
+
+    testCompile project(":tinydancer-noop")
+}
+

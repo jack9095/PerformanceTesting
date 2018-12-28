@@ -1,0 +1,6 @@
+int dimen metric_band_width 0x7f080001
+int drawable fpsmeterring_bad 0x7f090001
+int drawable fpsmeterring_good 0x7f090002
+int drawable fpsmeterring_medium 0x7f090003
+int layout meter_view 0x7f0f0001
+int string app_name 0x7f150001

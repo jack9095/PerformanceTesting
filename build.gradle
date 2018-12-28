@@ -1,0 +1,81 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Variables for entire project
+ext {
+    // SDK versions
+    minSdkVersion = 16
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    buildToolsVersion = "28"
+//    sourceCompatibilityVersion = JavaVersion.VERSION_1_7
+//    targetCompatibilityVersion = JavaVersion.VERSION_1_7
+
+    // Common versions
+    supportLibraryVersion = "28.0.0"
+//    butterKnifeVersion = "7.0.1"
+    daggerVersion = "2.8"
+
+    // POM file
+    GROUP = "com.github.brianPlummer"
+    VERSION_NAME = "0.1.3-snapshot"
+    POM_PACKAGING = "pom"
+    POM_DESCRIPTION = "Tiny Dancer"
+
+    POM_URL = "https://github.com/friendlyrobotnyc/TinyDancer/"
+    POM_SCM_URL = "https://github.com/friendlyrobotnyc/TinyDancer/"
+    POM_SCM_CONNECTION = "scm:git:https://github.com/friendlyrobotnyc/TinyDancer.git"
+    POM_SCM_DEV_CONNECTION = "scm:git:git@github.com:friendlyrobotnyc/TinyDancer.git"
+
+    POM_LICENCE_NAME = "The MIT License (MIT)"
+    POM_LICENCE_URL = "https://opensource.org/licenses/MIT"
+    POM_LICENCE_DIST = "repo"
+
+    POM_DEVELOPER_ID = "brianPlummer"
+    POM_DEVELOPER_NAME = "Brian Plummer"
+}
+
+// Dependencies
+ext.deps = [
+        // compile
+        appcompatv7    : "com.android.support:appcompat-v7:${supportLibraryVersion}",
+        supportDesign  : "com.android.support:design:$supportLibraryVersion",
+        recyclerviewv7 : "com.android.support:recyclerview-v7:${supportLibraryVersion}",
+//        butterknife    : "com.jakewharton:butterknife:${butterKnifeVersion}",
+        dagger         : "com.google.dagger:dagger:${daggerVersion}",
+
+        // annotationProcessor
+        daggerCompiler : "com.google.dagger:dagger-compiler:${daggerVersion}",
+
+        // provided
+        javaxAnnotation: "org.glassfish:javax.annotation:10.0-b28",
+
+        // testCompile
+        junit          : "junit:junit:4.12",
+        assertJ        : "org.assertj:assertj-core:1.7.1"
+]
