@@ -1,0 +1,3 @@
+jp.wasabeef.takt
+id takt_fps
+layout stage
