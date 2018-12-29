@@ -1,1 +1,1 @@
-include ':app', ':tinydancer', ':tinydancer-noop', ':example'
+include ':app', ':tinydancer', ':tinydancer-noop', ':example', ':takt'

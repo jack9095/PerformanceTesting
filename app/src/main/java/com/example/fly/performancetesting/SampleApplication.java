@@ -1,8 +1,10 @@
 package com.example.fly.performancetesting;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-
+import android.app.Application;
+import android.graphics.Color;
+import android.util.Log;
+import jp.wasabeef.takt.Audience;
+import jp.wasabeef.takt.Seat;
 import jp.wasabeef.takt.Takt;
 
 /**
@@ -21,22 +23,21 @@ import jp.wasabeef.takt.Takt;
  * limitations under the License.
  */
 
-public class MainActivity extends AppCompatActivity {
+public class SampleApplication extends Application {
 
-  @Override protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-  }
-
-  @Override
-  protected void onStart() {
-    super.onStart();
-    Takt.play();
-  }
-
-  @Override
-  protected void onStop() {
-    super.onStop();
-    Takt.finish();
+  @Override public void onCreate() {
+    super.onCreate();
+    Takt.stock(this)
+        .seat(Seat.TOP_RIGHT)
+        .interval(250)
+        .color(Color.WHITE)
+        .size(14f)
+        .alpha(.5f)
+        .listener(new Audience() {
+          @Override public void heartbeat(double fps) {
+            Log.d("Excellent!", fps + " fps");
+          }
+        })
+        .useCustomControl();
   }
 }

@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/example" />
+            <option value="$PROJECT_DIR$/takt" />
             <option value="$PROJECT_DIR$/tinydancer" />
             <option value="$PROJECT_DIR$/tinydancer-noop" />
           </set>
