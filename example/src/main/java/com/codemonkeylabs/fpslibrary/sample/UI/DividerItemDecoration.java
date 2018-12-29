@@ -9,9 +9,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-/**
- * Created by brianplummer on 9/11/15.
- */
 /*
  * Copyright (C) 2014 The Android Open Source Project
  *

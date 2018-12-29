@@ -18,6 +18,17 @@ import com.codemonkeylabs.fpslibrary.sample.R;
 //import butterknife.ButterKnife;
 //import butterknife.OnClick;
 
+/**
+ * https://github.com/android-notes/SwissArmyKnife   UI调试工具
+ * https://github.com/android-notes/Cockroach       降低Android非必要crash
+ * https://github.com/android-notes
+ *
+ * https://github.com/friendlyrobotnyc/TinyDancer  可以检测 fps 图像每帧的耗时
+ *
+ * https://github.com/wasabeef/Takt   可以检测 fps
+ *
+ * https://blog.csdn.net/wangwwish/article/details/77719715  博客
+ */
 public class MainActivity extends AppCompatActivity {
     private AppComponent component;
 
@@ -37,12 +48,16 @@ public class MainActivity extends AppCompatActivity {
         component.inject(this);
 //        ButterKnife.bind(this);
         recyclerView = findViewById(R.id.recyclerView);
+
+        // 显示悬浮窗
         findViewById(R.id.start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 TinyDancer.create().show(getApplicationContext());
             }
         });
+
+        // 隐藏悬浮窗
         findViewById(R.id.stop).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,45 +90,45 @@ public class MainActivity extends AppCompatActivity {
     }
 
 //    @OnClick(R.id.start)
-    public void start() {
-        TinyDancer.create().show(getApplicationContext());
-    }
+//    public void start() {
+//        TinyDancer.create().show(getApplicationContext());
+//    }
 
 //    @OnClick(R.id.stop)
-    public void stop() {
-        TinyDancer.hide((Application) getApplicationContext());
-    }
+//    public void stop() {
+//        TinyDancer.hide((Application) getApplicationContext());
+//    }
 
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        return true;
+//    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//
+//        //noinspection SimplifiableIfStatement
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-    }
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//    }
+//
+//    @Override
+//    protected void onPause() {
+//        super.onPause();
+//    }
 
     @Override
     protected void onDestroy() {
