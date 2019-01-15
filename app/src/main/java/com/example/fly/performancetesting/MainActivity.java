@@ -2,6 +2,7 @@ package com.example.fly.performancetesting;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import jp.wasabeef.takt.Takt;
 
@@ -22,17 +23,25 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 //    MyApplication.getInstance().stock.play();
+    ThreadManager.getInstance()
+            .executorThread(new Runnable() {
+              @Override
+              public void run() {
+                Log.e("MainActivity = ",Thread.currentThread().getName());
+              }
+            }, ThreadManager.ThreadPeriod.PERIOD_HIGHT);
+
   }
 
   @Override
   protected void onStart() {
     super.onStart();
-    Takt.play();
+//    Takt.play();
   }
 
   @Override
   protected void onStop() {
     super.onStop();
-    Takt.finish();
+//    Takt.finish();
   }
 }

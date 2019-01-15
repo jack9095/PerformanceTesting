@@ -1,1 +1,1 @@
-include ':app', ':tinydancer', ':tinydancer-noop', ':example', ':takt', ':mytakt'
+include ':app', ':tinydancer', ':tinydancer-noop', ':example', ':takt', ':mytakt', ':ThreadLibrary', ':threadDemo'
